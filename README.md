@@ -46,14 +46,14 @@ Portanto, aparecerão na resposta apenas os pedidos encontrados
 **Homologaçao:**
 Field|Value
 --------- | ------
-url|hmlapi.nobordist.com
-user|phx@phx.com
-password|OK278s.LLA23h
+Url|hmlapi.nobordist.com
+User|phx@phx.com
+Password|OK278s.LLA23h
 
 **Produçao:**
 Field|Value
 --------- | ------
-url|api.nobordist.com
-user|phx@phx.com
-password|(ESTÁ NO EMAIL)
+Url|api.nobordist.com
+User|phx@phx.com
+Password|(ESTÁ NO EMAIL)
 
