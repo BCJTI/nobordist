@@ -1,0 +1,16 @@
+{
+    "name": "Fulano",
+    "email": "se@mail.com",
+    "phone": "",
+    "profile": "seller",
+    "whatsapp_number": "",
+    "group_name": "Seller-Admin",
+    "agreement": true,
+    "auth_token": "1231231231232312312312323232323",
+    "company_name": "PHX",
+    "language": "english",
+    "is_super": false,
+    "platform": "Nobordist",
+    "platform_id": 1,
+    "can_overpack": true
+}

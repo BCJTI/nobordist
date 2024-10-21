@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "reference_number": "f24c9598-de03-4809-93a9-c31bc414044d",
+            "barcode": "02920939089289292",
+            "authentication": "78927278998289289",
+            "status": "processed",
+            "payment_type": "darf",
+            "value": 333.21,
+            "payment_date": "2024-10-08",
+            "messages": null,
+            "courrier_name": "Jack",
+            "courrier_cnpj": "78978387",
+            "seller_id": 1
+        },
+        {
+            "reference_number": "d388fe4e-b594-45a3-b00b-1db0a58181c3",
+            "barcode": "890908390782278937878387",
+            "authentication": "783789378978387",
+            "status": "processed",
+            "payment_type": "icms",
+            "value": 77.42,
+            "payment_date": "2024-10-08",
+            "messages": null,
+            "courrier_name": null,
+            "courrier_cnpj": null,
+            "seller_id": 1,
+            "fiscal_parcel": {
+                "dir_number": "776534231",
+                "customer_name": "Fulano Beltrano",
+                "customer_cpf": "50975384040",
+                "customer_cep": "05410700",
+                "tracking_number": "NX123456789NX",
+                "products_description": "cotton nike tshirts, small 200mA charger, plastic screen protector",
+                "customer_state": "SP",
+                "dir_date": "2024-04-23",
+                "created_at": "2024-08-21T21:49:52.228Z",
+                "master_number": "8937899783"
+            }
+        }
+    ],
+    "status": "SUCCESS",
+    "messages": [
+        "Pagamentos encontrados"
+    ]
+}

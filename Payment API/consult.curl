@@ -1,0 +1,4 @@
+curl --location --request GET 'hmlapi.nobordist.com/v1/fiscal_payments' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer YOUR_BEARER_TOKEN' \
+--data '{"reference_numbers": ["03447dc1-3ba5-4bb9-99c4-8bab5690eac1", "0381eda5-3eb1-4da3-82ae-85bcb03d86f8"]}'

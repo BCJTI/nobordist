@@ -1,0 +1,3 @@
+curl --location 'hmlapi.nobordist.com/authenticate' \
+--header 'Content-Type: application/json' \
+--data-raw '{"email": "YOUR_EMAIL", "password": "YOUR_PASSWORD"}'

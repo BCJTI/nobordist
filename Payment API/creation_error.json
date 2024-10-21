@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "payment_type": "darf",
+            "value": 333.21,
+            "courrier_cnpj": "78978387",
+            "creation_status": "error",
+            "errors": {
+                "barcode": [
+                    "não pode estar em branco"
+                ],
+                "courrier_name": [
+                    "não pode estar em branco"
+                ]
+            }
+        },
+        {
+            "dir_number": "776534231",
+            "customer_name": "Fulano Beltrano",
+            "customer_cpf": "50975379879884040",
+            "customer_cep": "05410700",
+            "master_number": "8937899783",
+            "customer_state": "SP",
+            "tracking_number": "NX123456789NX",
+            "dir_date": "2024-04-23",
+            "payment_type": "icms",
+            "value": 77.42,
+            "creation_status": "error",
+            "errors": {
+                "products_description": [
+                    "não pode estar em branco"
+                ],
+                "customer_cpf": [
+                    "Invalid CPF"
+                ]
+            }
+        }
+    ],
+    "status": "SUCCESS",
+    "messages": [
+        "Requisicao processada"
+    ]
+}
