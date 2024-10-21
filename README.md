@@ -7,12 +7,12 @@ https://gist.github.com/nobordist/0bd0c3d72a0ceff87b553b7ca58ee643
 Seguem os exemplos de requisição da API de pagamento da Nobordist:
 São 3 requisições:
 
-* 1) Authenticate para se logar à API 
+1. Authenticate para se logar à API 
   * Para se autenticar, chamar a requisição de autenticação e recuperar o token no campo
 bearer_token. Este token deverá ser usado nas 2 outras requisições
   * A validade do token é de 24 horas
 
-* 2) Creation para enviar as informações de pagamento à NB
+2. Creation para enviar as informações de pagamento à NB
   * Máximo 15 elementos por requisito
   * Dois valores são possíveis para o campo payment_type: icms ou darf
   * No caso de icms, é preciso criar um objeto por pedido
@@ -31,7 +31,7 @@ customer_name, customer_state, customer_cpf
 será necessário para consultar os status posteriormente.
   * No caso de erro, um campo adicional errors irá mostrar os erros ocorridos
 
-* 3) Consult para consultar, em qualquer momento, o status de pagamento dos pedidos
+3. Consult para consultar, em qualquer momento, o status de pagamento dos pedidos
   * Máximo 100 números de referência por requisição
   * Se um ou várias referencias nao são encontradas no sistema, nenhum erro irá aparecer.
 Portanto, aparecerão na resposta apenas os pedidos encontrados
@@ -42,12 +42,18 @@ Portanto, aparecerão na resposta apenas os pedidos encontrados
   * Payment date contém a data que o pagamento foi processado
 
 **Os accessos**
+
 **Homologaçao:**
-* url: hmlapi.nobordist.com
-* user: phx@phx.com
-* password: OK278s.LLA23h
+Field|Value
+--------- | ------
+url|hmlapi.nobordist.com
+user|phx@phx.com
+password|OK278s.LLA23h
 
 **Produçao:**
-* url: api.nobordist.com
-* user: phx@phx.com
-* password (ESTÁ NO EMAIL)
+Field|Value
+--------- | ------
+url|api.nobordist.com
+user|phx@phx.com
+password|(ESTÁ NO EMAIL)
+
