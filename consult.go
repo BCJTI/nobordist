@@ -1,6 +1,9 @@
 package nobordist
 
-import "time"
+import (
+	"github.com/seriallink/null"
+	"time"
+)
 
 const getCreation = Version + "fiscal_payments"
 
@@ -35,17 +38,17 @@ type ConsultElements struct {
 	Id              int                  `json:"id,omitempty"`
 	ReferenceNumber string               `json:"reference_number,omitempty"`
 	Barcode         string               `json:"barcode,omitempty"`
-	Authentication  interface{}          `json:"authentication,omitempty"`
+	Authentication  null.String          `json:"authentication,omitempty"`
 	Status          string               `json:"status,omitempty"`
 	PaymentType     string               `json:"payment_type,omitempty"`
 	Value           float64              `json:"value,omitempty"`
 	FiscalParcelId  int                  `json:"fiscal_parcel_id,omitempty"`
-	PaymentDate     interface{}          `json:"payment_date,omitempty"`
+	PaymentDate     null.String          `json:"payment_date,omitempty"`
 	CreatedAt       time.Time            `json:"created_at,omitempty"`
 	UpdatedAt       time.Time            `json:"updated_at,omitempty"`
 	PlatformId      int                  `json:"platform_id,omitempty"`
 	LogSent         bool                 `json:"log_sent,omitempty"`
-	Messages        interface{}          `json:"messages,omitempty"`
+	Messages        null.String          `json:"messages,omitempty"`
 	CourrierName    string               `json:"courrier_name,omitempty"`
 	CourrierCnpj    string               `json:"courrier_cnpj,omitempty"`
 	SellerId        int                  `json:"seller_id,omitempty"`
